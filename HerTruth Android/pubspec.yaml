@@ -1,0 +1,22 @@
+name: hertruth
+description: HerTruth for Android. Shows the same HerTruth page as the website and the iPhone app.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  webview_flutter_android: ^4.3.0
+  url_launcher: ^6.3.1
+  permission_handler: ^11.3.1
+  image_picker: ^1.1.2
+  printing: ^5.13.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/hertruth.html
